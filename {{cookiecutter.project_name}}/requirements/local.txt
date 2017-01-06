@@ -1,2 +1,5 @@
 # Local
+-r base.txt
+
+# Debug Toolbar
 Flask-DebugToolbar==0.10.0
