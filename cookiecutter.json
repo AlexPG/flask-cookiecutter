@@ -1,3 +1,5 @@
 {
-    "project_name": "demo"
+    "project_name": "demo",
+    "postgresql": "n",
+    "rest_framework": "n"
 }

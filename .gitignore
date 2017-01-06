@@ -1,0 +1,13 @@
+# Virtualenv
+venv
+
+# Python 3 bytecode
+__pycache__
+
+# Test files and folders
+htmlcov
+.coverage
+.cache
+
+# Database files
+*.sqlite

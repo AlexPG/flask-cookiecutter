@@ -7,8 +7,12 @@ Flask-Script==2.0.5
 Flask-WTF==0.14
 Flask-Bootstrap==3.3.7.0
 
+{% if cookiecutter.postgresql=='y' %}
 # Database
 psycopg2==2.6.2
+{% endif %}
 
+{% if cookiecutter.rest_framework == 'y' %}
 # REST
 flask-restplus==0.9.2
+{% endif %}
